@@ -1,0 +1,94 @@
+html,body{
+ magin:0;
+ padding:0;
+ width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url(atl.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.logo {
+  float: left;
+  color: #fff;
+  font-size: 22px;
+  line-height: 80px;
+  padding: 0 6em;
+}
+
+.menu {
+  float: right;
+  line-height: 50px;
+  margin: 0 5em;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: lighter;
+  padding: 0 19px ;
+}
+
+ul li:nth-child(6) a {
+  color: #95DFEE;
+  border: 2px solid #2251f9;
+  padding: 8px 15px;
+}
+
+.header {
+  position: absolute;
+  top: 300px;
+  right: 470px;
+  text-align: center;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  letter-spacing: 10px;
+}
+
+.header p {
+  color:#fff;
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 10px  0;
+}
+
+.header button {
+  color: #fff;
+  background: #2251f9;
+  padding: 12px 20px;
+  border: none;
+  font-size: 20px;
+  margin-top: 20px;
+}
