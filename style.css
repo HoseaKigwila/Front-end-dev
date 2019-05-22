@@ -1,0 +1,237 @@
+
+.site-title{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.top{
+  background: url(galaxy.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+
+
+.top-img{
+  padding-top: 50px ;
+
+}
+
+
+.top-img img{
+  width: 300px;
+  border-radius: 10%;
+  background-color: #fff;
+
+  box-shadow: 0px 0px 40px 20px #0ff;
+  /* in order: x offset, y offset, blur size, spread size, color */
+  /* blur size and spread size are optional (they default to 0) */
+}
+
+
+
+.price{
+  margin-top: 5rem;
+  font-size: 4rem;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 2rem;
+
+}
+
+
+
+
+.buy {
+  border: 5px solid yellow;
+  background: yellow;
+  margin: 0 auto;
+  width: 110px;
+  padding: 5px;
+  color: black;
+  text-transform: capitalize;
+  font-size: 25px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  transition: background-color 0.8s ease;
+  transition: box-shadow 0.8s ease;
+
+}
+
+
+.buy a {
+  text-decoration: none;
+  color: black;
+}
+
+.buy:hover{
+  background: green;
+  background-color: green;
+  border: 8px solid green;
+  box-shadow: 0px 0px 40px 20px #0ff;
+  color: white !important;
+
+}
+
+.buy p{
+  color: black !important;
+  transition: color 0.6s ease;
+
+}
+
+.buy p:hover{
+
+  color: white !important;
+
+}
+
+
+
+.course-title{
+    margin-top: 20px;
+    font-size: 5rem;
+      font-family: 'Source Sans Pro', sans-serif;
+}
+
+.runtime{
+
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.course-info{
+margin-top: 40px;
+margin-bottom: 20px;
+
+}
+
+.course-info p{
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.course-img img{
+  width: 12rem;
+  border-radius: 30px;
+  margin: 15px 0;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+.order{
+  font-size: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.lecture-box{
+  margin-top: 120px;
+}
+
+.lecture-title{
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.list-group-item{
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testy-box{
+  margin-top: 70px;
+}
+
+.testy{
+  width: 300px;
+  margin-top: 20px;
+}
+
+.testy-title{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+
+.chris-title{
+  font-size: 5rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.chris{
+  margin-bottom: 8rem;
+}
+
+.about{
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.chris-pic{
+  width: 21rem;
+  height: 19rem;
+  transition: box-shadow 0.3s ease;
+  border-radius: 20px;
+
+
+}
+
+.chris-pic:hover{
+  box-shadow: 0px 0px 40px 20px #0ff;
+  color: white !important;
+}
+
+.read{
+  width: 9rem;
+  font-size: 1.3rem;
+}
+
+
+.final-img img{
+  width: 20rem;
+  margin: 15px 0;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+  border-radius: 20px;
+}
+
+.final-title{
+  font-size: 5rem;
+ font-family: 'Source Sans Pro', sans-serif;
+ padding-bottom: 30px;
+}
+
+.final-price{
+  font-size: 12rem;
+
+}
+
+.final-buy{
+  font-size: 2rem;
+}
+
+.final-box{
+  margin-bottom: 5rem
+}
+
+
+
+.social-box{
+  margin-top: 40px;
+}
+.social{
+  margin-top: 1rem;
+}
