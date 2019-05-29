@@ -1,237 +1,180 @@
 
-.site-title{
-  padding-top: 10px;
-  padding-bottom: 10px;
+.top{
+ margin-left: 12rem;
 }
 
-.top{
-  background: url(galaxy.jpg) no-repeat center center fixed;
+.nav-link{
+margin-right: 2rem;
+
+}
+
+.brand{
+  color:black ;
+}
+
+.back-top-img{
+ background: url(pic.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ padding-bottom: 40rem;
+
+}
+
+.spotify{
+  background-color: #57BA63;
+
+}
+
+
+
+.spotify-info{
+  background: black url('pic2.jpg') 0 0 no-repeat;
+  background-size: 0 0;
+  color: white;
+  display: inline-block;
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+
+}
+
+.spotify-info:before {
+  background-image: inherit;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  height: 100%;
+  left: 0px;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+
+.spotify-info:hover:before {
+  opacity: 1;
+}
+.spotify-title{
+  font-family: 'Noto Sans', sans-serif;
+  color: #01FF70;
+
+}
+
+
+.spotify-pic{
+  width: 19rem;
+}
+
+
+.spotify-playlist{
+  background: url(playlist-pic.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-bottom: 50px;
 }
 
-
-
-.top-img{
-  padding-top: 50px ;
-
+.card1{
+  margin-right: 16rem;
+  margin-left: 9rem;
 }
-
-
-.top-img img{
-  width: 300px;
-  border-radius: 10%;
-  background-color: #fff;
-
-  box-shadow: 0px 0px 40px 20px #0ff;
-  /* in order: x offset, y offset, blur size, spread size, color */
-  /* blur size and spread size are optional (they default to 0) */
-}
-
-
-
-.price{
-  margin-top: 5rem;
-  font-size: 4rem;
-  color: white;
-  font-weight: 300;
-  letter-spacing: 1px;
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 2rem;
-
-}
-
-
-
-
-.buy {
-  border: 5px solid yellow;
-  background: yellow;
-  margin: 0 auto;
-  width: 110px;
-  padding: 5px;
-  color: black;
-  text-transform: capitalize;
-  font-size: 25px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  font-weight: 700;
-  transition: background-color 0.8s ease;
-  transition: box-shadow 0.8s ease;
-
-}
-
-
-.buy a {
+.buy{
+  color: Green;
   text-decoration: none;
-  color: black;
-}
-
-.buy:hover{
-  background: green;
-  background-color: green;
-  border: 8px solid green;
-  box-shadow: 0px 0px 40px 20px #0ff;
-  color: white !important;
 
 }
 
-.buy p{
-  color: black !important;
-  transition: color 0.6s ease;
-
+.button{
+  text-decoration: none;
+}
+.disk-box{
+  padding-bottom: 2rem;
 }
 
-.buy p:hover{
-
-  color: white !important;
-
-}
-
-
-
-.course-title{
-    margin-top: 20px;
-    font-size: 5rem;
-      font-family: 'Source Sans Pro', sans-serif;
-}
-
-.runtime{
-
-  font-size: 30px;
-  letter-spacing: 2px;
-}
-
-.course-info{
-margin-top: 40px;
-margin-bottom: 20px;
-
-}
-
-.course-info p{
-  padding: 10px;
-  font-size: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.course-img img{
-  width: 12rem;
-  border-radius: 30px;
-  margin: 15px 0;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-	-moz-box-shadow: 0 8px 6px -6px black;
-	box-shadow: 0 8px 6px -6px black;
-}
-
-.order{
-  font-size: 40px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-.lecture-box{
-  margin-top: 120px;
-}
-
-.lecture-title{
-  font-size: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-
-.list-group-item{
-  font-size: 17px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.testy-box{
-  margin-top: 70px;
-}
-
-.testy{
-  width: 300px;
-  margin-top: 20px;
-}
-
-.testy-title{
-  font-family: 'Source Sans Pro', sans-serif;
+.album-title{
   font-size: 3rem;
-  letter-spacing: 5px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
-
-.chris-title{
-  font-size: 5rem;
-  margin-bottom: 4rem;
-  margin-top: 4rem;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-
-.chris{
-  margin-bottom: 8rem;
-}
-
-.about{
-  font-size: 1.3rem;
+.music-pic{
+  width: 17rem;
+  margin-left: 1rem;
   margin-top: 1rem;
 }
 
-.chris-pic{
-  width: 21rem;
-  height: 19rem;
-  transition: box-shadow 0.3s ease;
-  border-radius: 20px;
-
-
-}
-
-.chris-pic:hover{
-  box-shadow: 0px 0px 40px 20px #0ff;
-  color: white !important;
-}
-
-.read{
-  width: 9rem;
-  font-size: 1.3rem;
+.music-buy{
+  font-size: 3rem;
+  color: green;
+  text-decoration: none !important;
 }
 
 
-.final-img img{
+
+.about-box{
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 7rem;
+  width: 100% !important;
+  margin-bottom: 4rem;
+
+}
+
+.about-pic{
   width: 20rem;
-  margin: 15px 0;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-	-moz-box-shadow: 0 8px 6px -6px black;
-	box-shadow: 0 8px 6px -6px black;
-  border-radius: 20px;
+  margin-top: 8rem;
 }
 
-.final-title{
-  font-size: 5rem;
- font-family: 'Source Sans Pro', sans-serif;
- padding-bottom: 30px;
+.contact-title{
+font-family: 'Noto Sans', sans-serif;
 }
 
-.final-price{
-  font-size: 12rem;
-
+.copy-right{
+  font-family: 'Noto Sans', sans-serif;
 }
-
-.final-buy{
-  font-size: 2rem;
-}
-
-.final-box{
-  margin-bottom: 5rem
-}
-
-
 
 .social-box{
-  margin-top: 40px;
+
 }
-.social{
-  margin-top: 1rem;
+
+.about-text{
+  margin-top: 3rem;
+  padding: 1rem;
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.dame{
+color: white !important;
+border: 3px solid white;
+background: black;
+text-decoration: none !important;
+}
+
+
+.gallery{
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.gallery-box{
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+.gallery-box-2{
+  width: 100%;
+}
+
+.gallery-title{
+  font-family: 'Noto Sans', sans-serif;
 }
