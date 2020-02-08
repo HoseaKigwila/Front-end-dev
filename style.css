@@ -1,515 +1,171 @@
-#preloader{
-  position:fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #fff ;
-  z-index: 99;
-
+body{
+  margin:0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url('speaker.jpg');
+  background-attachment: fixed;
 }
 
-#status{
-  width: 300px;
-  height: 300px;
+header{
   position: absolute;
-  left: 45%;
-  top: 48%;
-  background-image:url("http://www.tinmantech.com/images/design/loading.gif") ;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: -100px 0 0 -100px;
-}
-
-
-
-
- .row{
+  top:0;
+  left:0;
+  background: #262626;
   width: 100%;
-  margin-left: 0em;
-  margin-right: 0em;
+  box-sizing: border-box;
+  padding: 0 100px;
+  box-sizing: border-box;
+  height: 50px;
 }
 
+ header #logo img{
+ height: 50px;
+ border-radius: 60%;
+ border-radius: 80px;
 
-html,body{
-  background-color: #c2cad0 !important;
-  border-color: #c2cad0   !important;
+
 }
 
-nav .navbar-nav li a{
-  color: white !important;
-  font-family: 'Vollkorn', serif;
-  text-shadow: 1px 1px 1px #86c232;
-  font-size: 18px;
-  }
-  .navbar{
-      color: #6b6e70;
-      background-color: #474b4f !important;
-      border-color: #474b4f  !important;
+header #logo{
+  height: 50px;
+  line-height: 50px;
+  float: left;
+}
 
-
-  }
-
-
-
-.top-number{
+header nav{
   float: right;
 }
 
-.big-img{
-  background: url("https://mensfitnessmagazine.com.au/wp-content/uploads/2017/05/iStock-540101544-1.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-bottom: 10.2em;
-  border: 4px solid #61892f;
-
+header nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-.head-content{
-  padding: 10em 0;
+header nav ul li{
+  list-style: none;
 }
 
-.head-content-title{
-  color: white;
-  font-size: 5em;
-  text-shadow: 1px 1px 1px #000, 3px 3px 5px #61892f;
-  font-family: 'Vollkorn', serif;
-
-}
-
-.b{
-  background: #86c232;
-  background-color: #86c232 ;
-  color: white;
-  margin-top: 1rem;
-}
-
-.bt{
-    font-family: 'Vollkorn', serif;
-}
-/* start of mission */
-
-.mission-box{
-  background: url("9vZI.gif");
-
-}
-
-.missionlist{
-  margin-right: 0em;
-  margin-left: 0em;
-}
-.mission-img{
-  width: 100%;
-  height: 100%;
-  border-radius: 5%;
-
-}
-
-.mission-title{
-padding-top: 2em;
-padding-bottom: 1em;
-color: white;
-}
-
-.mission-text{
-  color: white;
-}
-
-.mission-p{
-  font-family: 'Vollkorn', serif;
-  padding: 2em;
-  color: white;
-}
-.mission-button{
-  margin-bottom: 1em;
-}
-
-/* start of plus kard */
-.kard{
-  position: relative;
-  width: 100%;
-  height: 200px;
-  background: #262626;
-  text-align: center;
-  margin-left: 0 !important;
-  margin-right:  !important;
-  overflow: hidden;
-  margin-top: 3em;
-}
-
-.kard-box{
-  padding-top: 1rem;
-  padding-bottom: 8em;
-  margin-left: 0em;
-  margin-right: 0em;
-}
-.kard-title{
-  padding-top: 4em;
-  color: white !important;
-  font-family: 'Vollkorn', serif;
-  text-shadow: 1px 1px 1px #86c232;
-  font-size: 3.5em;
-
-}
-
-
-
-input,
-.toggle{
-  position: absolute;
-  width: 50px;
+header nav ul li a {
   height: 50px;
-  bottom: 10px;
-  right: 10px;
-  outline: none;
-  z-index: 10;
-}
-
-input{
-  opacity: 0;
-}
-
-.toggle{
-  pointer-events: none;
-  border-radius: 50%;
-  background: #fff;
-  transition: 0.5s;
-  text-align: center;
-  line-height: 45px;
-  font-size: 36px;
-  box-shadow: 0 0 0 0px #61892f;
-}
-
-input:checked ~ .toggle
-{
-  box-shadow: 0 0 0 500px #61892f;
-  transform: rotate(225deg);
-}
-
-.imgBx img {
-width: 100%;
-height: 100%;
-}
-
-.imgBX,
-.details
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-.details{
-  padding: 20px;
-  box-sizing: border-box;
-  z-index: 11;
-  pointer-events: none;
-  transition: 0.5s;
-  opacity: 0;
-}
-
-input:checked ~ .details{
-  opacity: 1;
-  transition-delay: 0.2s;
-}
-.details h2{
-  margin-bottom: 5px;
+  line-height: 50px;
+  padding: 0 20px;
   color: #fff;
+  text-decoration: none;
+  display: block;
 }
-/* end of plus kard */
 
+header nav ul li a:hover,
+header nav ul li a.active{
+  color: #000;
+  background: #fff;
+}
 
-
-/* Start of online */
-
-  .online-box{
-    margin: 1em;
-    background-color: #222629;
-    margin-left: 5em;
-    margin-bottom: 5em;
-    width: 69.2em;
-    font-family: 'Vollkorn', serif;
-    color: white;
-
-  }
-
-  .online-title{
-    font-size: 4em;
-    color: white !important;
-    font-family: 'Vollkorn', serif;
-    text-shadow: 1px 1px 1px #86c232;
-  }
-
-
-  .online-pic{
-    width: 33em;
-    height: 20em;
-    text-align: center;
-    /* margin-left: 6em; */
-  }
-
-  .online-text{
-    padding-top: 1.5em;
-    padding-left: 3em ;
-  }
-
-  .online-btn{
-    margin-top: 2em;
-    text-align: center;
-    margin-left: 0;
-    font-family: 'Vollkorn', serif
-  }
-
-
-
-
-
-
-
-
-
-/* End of online */
-
-
-
-
- /* start of profile flip and train */
-.train-title{
-  font-size: 4em;
-  color: white !important;
-  font-family: 'Vollkorn', serif;
-  text-shadow: 1px 1px 1px #86c232;
+.menu-toggle{
+  color: #fff;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+.text {
+  padding-top: 100px;
+}
+.text h1{
+  font-family: 'Russo One', sans-serif;
   text-align: center;
-
+  font-size: 90px;
+  color: #d9d9d9;
+  margin: 0;
 }
 
-.flip-box{
-  padding-top: 3em;
-  padding-bottom: 5em;
+.text h2{
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #d9d9d9;
 }
 
-.front img{
-  width: 100%;
-  height: 100%;
-
+.click{
+  text-align: center !important;
+  padding-top: 30px;
 }
 
-.flip-card{
-
-transform-style: preserve-3d;
-width: 100%;
-height: 300px;
-perspective: 600px;
-transition: 0.5s;
+ .btn {
+  color: white;
+  text-decoration: none;
+  padding: 20px 50px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: 'Russo One', sans-serif;
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  transition: all 0.5s linear;
+  color: #272929;
+  background: white;
+  margin-right: 10px;
 }
 
-.flip-card .front{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  backface-visibility: hidden;
-  transform: rotateX(0deg);
-  transition: 0.5s;
-
+.beats{
+  text-align: center;
+  padding: 60px;
 }
 
-.flip-card:hover .front{
-  transform: rotateX(-180deg);
-}
-
-.flip-card .back{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  backface-visibility: hidden;
-  transform: rotateX(180deg);
-  transition: 0.5s;
-}
-
-.flip-card:hover .back{
-  transform: rotateX(0deg);
-}
-
-
-.social-img{
-width: 3em;
-margin: 1em;
-}
-
-.back-content-middle{
+.listen{
+  float: left;
   color: white;
 }
 
- /* end of profile flip */
 
 
-
-
-
- /* end of profile flip */
-
-
-
-
-
-
-
-.footer-box{
-  background-color: black ;
-  height: 3em;
-}
-
-
-.footer-text{
-  color: white;
-
-}
-
-.text-f {
-  margin-top: 10px;
-  margin-bottom: 0;
-
-}
-
-/* tablet */
-@media only screen and (max-width: 768px)  {
-
-.head-content{
-  padding: 5em 0;
-}
-
-.mission-box{
-  padding-top: 1em;
-}
-
-.missionlist{
-  margin-right: 0em;
-  margin-left: 0em;
-}
-
-.mission-img{
-  width: 100%;
-  height: 20em;
-}
-
-.mission-p{
-  font-size: 12px;
-}
-
-.mission-button{
-   margin-bottom:0;
-}
-
-.kard-box{
-padding-bottom: 1em;
-}
-
-.kard-list{
-  padding-left: 2px;
-  padding-right: 2px;
-}
-
-.kard-title{
-  padding-top: 1em;
-}
-
-.imgBx img {
-  height: 13em;
-}
-
-.details-t{
-  font-size: 1.5em;
-}
-
-.details-p{
-  font-size: 12px;
-}
-
-.online-box{
-  width: 100%;
-  margin-left: 25px;
-  margin-right: 0px;
-
-}
-
-
-
-.front img{
-  height: 100%;
-  width: 100%;
-}
-
-.footer-box{
-  height: 7em;
-}
-
-
-
-
-
-
-}
-
-
-@media only screen and (max-width: 576px)  {
-  .row{
+@media (max-width: 991px)
+{
+  header
+  {
+    padding: 0 20px;
+  }
+  .menu-toggle
+  {
+    display: block;
+  }
+  header nav
+  {
+    position: absolute;
     width: 100%;
+    height: calc(100vh - 50px);
+    background: #333;
+    top: 50px;
+    left: -100%;
+    transition: 0.5s;
+  }
+  header nav.active
+  {
+    left: 0;
   }
 
-
-  .free-vid{
-    margin-left: 1px ;
-  }
-/* start of mission */
-  .mission-button{
-    margin-bottom: 1em;
-  }
-
-  .missionlist{
-    margin-right: 0em;
-    margin-left: 0em;
-  }
-
-  .mission-img{
-    padding-bottom: 2em;
-    height: 20em;
-  }
-/* end of mission */
-
-/* start of online */
-  .online-box{
-    margin: 0;
-    margin-right: 0;
-    background-color: #222629;
-    width: 100%;
-  }
-
-  .online-pic{
-    width: 100%;
+  header nav ul
+  {
+    display: block;
     text-align: center;
-    height: 13em;
-    margin-top: 1em;
   }
-
-  .online-text{
-    padding-top: 1em;
+  header nav ul li a
+  {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
   }
-
-  .online-btn{
-    margin: 0;
-    margin-left: 0;
-  }
-/* end of online */
-
-/* start of flip */
-.flip-card{
-  margin-bottom: 1em;
 }
 
 
-/* end of flip */
+
+@media (min-width: 400px) {
+
+.btn{
+  padding: 20px;
+}
+
 }
